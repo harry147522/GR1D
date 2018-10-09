@@ -1,0 +1,18 @@
+F90= ${MESASDK_ROOT}/bin/gfortran
+F90FLAGS=-g -O3
+LDFLAGS=-g -O3
+
+MODINC="-I ./"
+
+
+HDF5DIR= ${MESASDK_ROOT}
+HDF5INCS=-I${HDF5DIR}/include
+HDF5LIBS=-L${HDF5DIR}/lib -lhdf5 -lhdf5_fortran -lhdf5  -lz
+
+LAPACKDIR= ${MESASDK_ROOT}
+LAPACKLIBS=-L${LAPACKDIR}/lib -llapack -lblas
+
+HAVE_NUC_EOS=1
+HAVE_RESTART=1
+HAVE_LEAK_ROS=0
+HAVE_LAPACK=0

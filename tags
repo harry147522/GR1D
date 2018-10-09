@@ -1,0 +1,664 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$Y_e  rho  $	docs/README.tex	/^updated version of GR1D.$/;"	s
+10	src/input_parser.F90	/^10 continue$/;"	l	subroutine:get_string_parameter	file:
+12	src/nuc_eos/findtemp.F90	/^12 continue$/;"	l	subroutine:findtemp	file:
+123	src/Step.F90	/^123 continue$/;"	l	subroutine:Step	file:
+19	src/input_parser.F90	/^19 continue$/;"	l	subroutine:get_string_parameter	file:
+B_M1	src/GR1D_module.F90	/^  real*8,allocatable,save :: B_M1(/;"	v	module:GR1D_module
+CLEANSTUFF	src/nuc_eos/Makefile	/^CLEANSTUFF=rm -rf *.o *.mod *.a$/;"	m
+C_M1	src/GR1D_module.F90	/^  real*8,allocatable,save :: C_M1(/;"	v	module:GR1D_module
+Ca	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: Ca /;"	v	module:leakage_rosswog
+CheckFlag	src/GR1D_module.F90	/^  logical :: CheckFlag /;"	v	module:GR1D_module
+Cv	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: Cv /;"	v	module:leakage_rosswog
+D_M1	src/GR1D_module.F90	/^  real*8,allocatable,save :: D_M1(/;"	v	module:GR1D_module
+Disclaimer and Software License	docs/README.tex	/^\\end{center}$/;"	s
+E1	src/eos.F90	/^  real*8 K1,K2,E1,/;"	v	module:hybrid_eos_module
+E2	src/eos.F90	/^  real*8 K1,K2,E1,E2,/;"	v	module:hybrid_eos_module
+E3	src/eos.F90	/^  real*8 K1,K2,E1,E2,E3$/;"	v	module:hybrid_eos_module
+EXTRADEPS	src/nuc_eos/Makefile	/^EXTRADEPS=$/;"	m
+EXTRAINC	src/leakage_rosswog/Makefile	/^EXTRAINC= -I..\/nuc_eos -I..\/$/;"	m
+EXTRAINCS	src/nulibtable/Makefile	/^EXTRAINCS = $(HDF5INCS)$/;"	m
+EXTRAOBJECTS	src/nulibtable/Makefile	/^EXTRAOBJECTS = $(HDF5LIBS)$/;"	m
+FOBJECTS	src/nuc_eos/Makefile	/^FOBJECTS=$(FSOURCES:.f=.o)$/;"	m
+FSOURCES	src/nuc_eos/Makefile	/^FSOURCES=linterp.f$/;"	m
+GR	src/GR1D_module.F90	/^  logical :: GR /;"	v	module:GR1D_module
+GR1D	src/GR1D.F90	/^program GR1D	/;"	p
+GR1D_module	src/GR1D_module.F90	/^module GR1D_module$/;"	m
+GR_alp	src/gravity.F90	/^subroutine GR_alp$/;"	s
+GR_boundaries	src/gravity.F90	/^subroutine GR_boundaries$/;"	s
+GR_terms_initial	src/gravity.F90	/^subroutine GR_terms_initial$/;"	s
+Grid Types	docs/README.tex	/^file \\emph{parameters} in the code's main directory. $/;"	s
+K0	src/ppm.F90	/^  real*8 :: K0 /;"	v	module:ppm
+K1	src/eos.F90	/^  real*8 K1,/;"	v	module:hybrid_eos_module
+K2	src/eos.F90	/^  real*8 K1,K2,/;"	v	module:hybrid_eos_module
+M1_closure	src/M1/M1_closure.F90	/^subroutine M1_closure$/;"	s
+M1_conservativeupdate	src/M1/M1_conservativeupdate.F90	/^subroutine M1_conservativeupdate(/;"	s
+M1_control	src/M1/M1_control.F90	/^subroutine M1_control /;"	s
+M1_control_flag	src/GR1D_module.F90	/^  logical :: M1_control_flag /;"	v	module:GR1D_module
+M1_do_backwardfix	src/GR1D_module.F90	/^  integer :: M1_do_backwardfix$/;"	v	module:GR1D_module
+M1_explicitterms	src/M1/M1_explicitterms.F90	/^subroutine M1_explicitterms(/;"	s
+M1_extractradii	src/GR1D_module.F90	/^  real*8 :: M1_extractradii$/;"	v	module:GR1D_module
+M1_iextractradii	src/GR1D_module.F90	/^  integer :: M1_iextractradii$/;"	v	module:GR1D_module
+M1_imaxradii	src/GR1D_module.F90	/^  integer :: M1_imaxradii$/;"	v	module:GR1D_module
+M1_implicitstep	src/M1/M1_implicitstep.F90	/^subroutine M1_implicitstep(/;"	s
+M1_init	src/M1/M1_init.F90	/^subroutine M1_init$/;"	s
+M1_matter_source	src/GR1D_module.F90	/^  real*8,allocatable,save :: M1_matter_source(/;"	v	module:GR1D_module
+M1_maxradii	src/GR1D_module.F90	/^  real*8 :: M1_maxradii$/;"	v	module:GR1D_module
+M1_moment_to_distro	src/GR1D_module.F90	/^  real*8,allocatable,save :: M1_moment_to_distro(/;"	v	module:GR1D_module
+M1_moment_to_distro_inverse	src/GR1D_module.F90	/^  real*8,allocatable,save :: M1_moment_to_distro_inverse(/;"	v	module:GR1D_module
+M1_phase1_cffac	src/GR1D_module.F90	/^  real*8 :: M1_phase1_cffac$/;"	v	module:GR1D_module
+M1_phase1_encpl_way	src/GR1D_module.F90	/^  integer :: M1_phase1_encpl_way /;"	v	module:GR1D_module
+M1_phase1_ies_way	src/GR1D_module.F90	/^  integer :: M1_phase1_ies_way$/;"	v	module:GR1D_module
+M1_phase1_ns	src/GR1D_module.F90	/^  integer :: M1_phase1_ns$/;"	v	module:GR1D_module
+M1_phase1_reconstruction	src/GR1D_module.F90	/^  character*80 M1_phase1_reconstruction$/;"	v	module:GR1D_module
+M1_phase1phase2_density	src/GR1D_module.F90	/^  real*8 :: M1_phase1phase2_density$/;"	v	module:GR1D_module
+M1_phase2_cffac	src/GR1D_module.F90	/^  real*8 :: M1_phase2_cffac$/;"	v	module:GR1D_module
+M1_phase2_encpl_way	src/GR1D_module.F90	/^  integer :: M1_phase2_encpl_way$/;"	v	module:GR1D_module
+M1_phase2_ies_way	src/GR1D_module.F90	/^  integer :: M1_phase2_ies_way$/;"	v	module:GR1D_module
+M1_phase2_ns	src/GR1D_module.F90	/^  integer :: M1_phase2_ns$/;"	v	module:GR1D_module
+M1_phase2_reconstruction	src/GR1D_module.F90	/^  character*80 M1_phase2_reconstruction$/;"	v	module:GR1D_module
+M1_phase2phase3_pbtime	src/GR1D_module.F90	/^  real*8 :: M1_phase2phase3_pbtime$/;"	v	module:GR1D_module
+M1_phase3_cffac	src/GR1D_module.F90	/^  real*8 :: M1_phase3_cffac$/;"	v	module:GR1D_module
+M1_phase3_encpl_way	src/GR1D_module.F90	/^  integer :: M1_phase3_encpl_way$/;"	v	module:GR1D_module
+M1_phase3_ies_way	src/GR1D_module.F90	/^  integer :: M1_phase3_ies_way$/;"	v	module:GR1D_module
+M1_phase3_ns	src/GR1D_module.F90	/^  integer :: M1_phase3_ns$/;"	v	module:GR1D_module
+M1_phase3_reconstruction	src/GR1D_module.F90	/^  character*80 M1_phase3_reconstruction$/;"	v	module:GR1D_module
+M1_prev_phase	src/GR1D_module.F90	/^  integer :: M1_prev_phase /;"	v	module:GR1D_module
+M1_reconstruct	src/M1/M1_reconstruct.F90	/^subroutine M1_reconstruct$/;"	s
+M1_reconstruction_method	src/GR1D_module.F90	/^  character*80 M1_reconstruction_method$/;"	v	module:GR1D_module
+M1_testcase_diffusion_wave	src/M1/M1_testcases.F90	/^function M1_testcase_diffusion_wave(/;"	f
+M1_testcase_number	src/GR1D_module.F90	/^  integer :: M1_testcase_number$/;"	v	module:GR1D_module
+M1_testcase_travelling_pulse	src/M1/M1_testcases.F90	/^function M1_testcase_travelling_pulse(/;"	f
+M1_updateeas	src/M1/M1_updateeas.F90	/^subroutine M1_updateeas$/;"	s
+M1closure	src/GR1D_module.F90	/^  character*80 :: M1closure$/;"	v	module:GR1D_module
+M1test	src/M1/M1_testcases.F90	/^subroutine M1test$/;"	s
+MODINC	src/nuc_eos/Makefile	/^MODINC=$(HDF5INCS)$/;"	m
+MODULES	src/Makefile	/^MODULES=GR1D_module.mod$/;"	m
+NT_OBJECTS	src/nulibtable/Makefile	/^NT_OBJECTS=$(NT_SOURCES:.F90=.o )$/;"	m
+NT_SOURCES	src/nulibtable/Makefile	/^NT_SOURCES=nulibtable.F90 \\$/;"	m
+Neutrino Transport	docs/README.tex	/^this, $\\Omega$ can be read in from the initial stellar profile.$/;"	s
+OBJECTS	src/Makefile	/^OBJECTS=$(SOURCES:.F90=.o )$/;"	m
+OBJECTS	src/nuc_eos/Makefile	/^OBJECTS=$(SOURCES:.F90=.o)$/;"	m
+OSC	src/OSC.F90	/^subroutine OSC$/;"	s
+OutputFlag	src/GR1D_module.F90	/^  logical :: OutputFlag /;"	v	module:GR1D_module
+OutputFlagRestart	src/GR1D_module.F90	/^  logical :: OutputFlagRestart /;"	v	module:GR1D_module
+OutputFlagScalar	src/GR1D_module.F90	/^  logical :: OutputFlagScalar /;"	v	module:GR1D_module
+Parameter File	docs/README.tex	/^all of the details. Below we describe the possible parameter file settings.$/;"	s
+Physics Updates	docs/README.tex	/^\\section{Version 1.01, 1.02, 1.03, \\& v2.0 Updates}$/;"	u
+Q_diff	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: Q_diff(/;"	v	module:leakage_rosswog
+Q_eff	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: Q_eff(/;"	v	module:leakage_rosswog
+Q_loc	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: Q_loc(/;"	v	module:leakage_rosswog
+Qnp	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: Qnp /;"	v	module:leakage_rosswog
+R_diff	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: R_diff(/;"	v	module:leakage_rosswog
+R_eff	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: R_eff(/;"	v	module:leakage_rosswog
+R_loc	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: R_loc(/;"	v	module:leakage_rosswog
+Restart Files	docs/README.tex	/^\\end{tabular}$/;"	s
+Rotation	docs/README.tex	/^fitting constants are set in the parameter file.$/;"	s
+SOURCES	src/Makefile	/^SOURCES=GR1D_module.F90 \\$/;"	m
+SOURCES	src/nuc_eos/Makefile	/^SOURCES=eosmodule.F90 readtable.F90 nuc_eos.F90 bisection.F90 findtemp.F90 linterp_many.F90$/;"	m
+SetTimeStep	src/driver.F90	/^subroutine SetTimeStep$/;"	s
+Step	src/Step.F90	/^subroutine Step(/;"	s
+ToverW	src/GR1D_module.F90	/^  real*8,allocatable,save :: ToverW(/;"	v	module:GR1D_module
+Useability Updates	docs/README.tex	/^\\end{itemize}$/;"	u
+Version 1.01  1.02  1.03    v2.0 Updates	docs/README.tex	/^\\end{itemize}$/;"	s
+W	src/GR1D_module.F90	/^  real*8,allocatable,save :: phi(:),phii(:),alp(:),X(:),W(/;"	v	module:GR1D_module
+WHW02	src/GR1D_module.F90	/^  logical WHW02$/;"	v	module:GR1D_module
+Wm	src/GR1D_module.F90	/^       alpp(:),alpm(:),Xp(:),Xm(:),Wp(:),Wm(/;"	v	module:GR1D_module
+Wp	src/GR1D_module.F90	/^       alpp(:),alpm(:),Xp(:),Xm(:),Wp(/;"	v	module:GR1D_module
+X	src/GR1D_module.F90	/^  real*8,allocatable,save :: phi(:),phii(:),alp(:),X(/;"	v	module:GR1D_module
+Xm	src/GR1D_module.F90	/^       alpp(:),alpm(:),Xp(:),Xm(/;"	v	module:GR1D_module
+Xp	src/GR1D_module.F90	/^       alpp(:),alpm(:),Xp(/;"	v	module:GR1D_module
+accreted_mass	src/GR1D_module.F90	/^  real*8 accreted_mass(/;"	v	module:GR1D_module
+accretion_analysis	src/GR1D_module.F90	/^  logical :: accretion_analysis /;"	v	module:GR1D_module
+accretion_radii	src/GR1D_module.F90	/^  integer accretion_radii(/;"	v	module:GR1D_module
+accretion_rates	src/GR1D_module.F90	/^  real*8 accretion_rates(/;"	v	module:GR1D_module
+adjust_ye	src/ye_of_rho.F90	/^  subroutine adjust_ye$/;"	s	module:ye_of_rho
+allocate_vars	src/allocate_vars.F90	/^subroutine allocate_vars$/;"	s
+alltables	src/nuc_eos/eosmodule.F90	/^   real*8,allocatable :: alltables(/;"	v	module:eosmodule
+alp	src/GR1D_module.F90	/^  real*8,allocatable,save :: phi(:),phii(:),alp(/;"	v	module:GR1D_module
+alpha	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: alpha /;"	v	module:leakage_rosswog
+alpm	src/GR1D_module.F90	/^       alpp(:),alpm(/;"	v	module:GR1D_module
+alpp	src/GR1D_module.F90	/^       alpp(/;"	v	module:GR1D_module
+amu_cgs	src/GR1D_module.F90	/^  real*8,parameter :: amu_cgs /;"	v	module:GR1D_module
+amu_cgs	src/nuc_eos/eosmodule.F90	/^   real*8,save :: amu_cgs /;"	v	module:eosmodule
+amu_mev	src/GR1D_module.F90	/^  real*8,parameter :: amu_mev /;"	v	module:GR1D_module
+amu_mev	src/nuc_eos/eosmodule.F90	/^   real*8,save :: amu_mev /;"	v	module:eosmodule
+analytic_OSC_alpha	src/analysis.F90	/^subroutine analytic_OSC_alpha(/;"	s
+angular_momentum	src/GR1D_module.F90	/^  real*8 angular_momentum$/;"	v	module:GR1D_module
+atmo	src/GR1D_module.F90	/^  integer,allocatable,save :: atmo(/;"	v	module:GR1D_module
+atmo_fac	src/GR1D_module.F90	/^  real*8 atmo_fac$/;"	v	module:GR1D_module
+atmo_rho	src/atmosphere.F90	/^  real*8 atmo_rho_/;"	v	module:atmos
+atmo_rho_abs_min	src/GR1D_module.F90	/^  real*8 atmo_rho_abs_min$/;"	v	module:GR1D_module
+atmo_rho_rel_min	src/GR1D_module.F90	/^  real*8 atmo_rho_rel_min$/;"	v	module:GR1D_module
+atmo_rho_thr	src/atmosphere.F90	/^  real*8 atmo_rho_thr,/;"	v	module:atmos
+atmos	src/atmosphere.F90	/^module atmos$/;"	m
+atmos_eos	src/eos.F90	/^subroutine atmos_eos(/;"	s
+atmosphere_init	src/atmosphere.F90	/^subroutine atmosphere_init$/;"	s
+ave_enr_nu	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: ave_enr_nu(/;"	v	module:leakage_rosswog
+avo	src/GR1D_module.F90	/^  real*8,parameter :: avo /;"	v	module:GR1D_module
+binding_energy	src/GR1D_module.F90	/^  real*8,allocatable,save :: binding_energy(/;"	v	module:GR1D_module
+binding_energy_envelope	src/GR1D_module.F90	/^  real*8 binding_energy_envelope$/;"	v	module:GR1D_module
+binding_energy_total	src/GR1D_module.F90	/^  real*8 binding_energy_total$/;"	v	module:GR1D_module
+bisection	src/nuc_eos/bisection.F90	/^subroutine bisection(/;"	s
+bounce	src/GR1D_module.F90	/^  logical :: bounce /;"	v	module:GR1D_module
+boundaries	src/boundaries.F90	/^subroutine boundaries(/;"	s
+c_1_r	src/ppm.F90	/^  real*8,allocatable :: c_1_r(/;"	v	module:ppm
+c_2_r	src/ppm.F90	/^  real*8,allocatable :: c_1_r(:),c_2_r(/;"	v	module:ppm
+c_3_r	src/ppm.F90	/^  real*8,allocatable :: c_3_r(/;"	v	module:ppm
+c_4_r	src/ppm.F90	/^  real*8,allocatable :: c_3_r(:),c_4_r(/;"	v	module:ppm
+c_5_r	src/ppm.F90	/^  real*8,allocatable :: c_3_r(:),c_4_r(:),c_5_r(/;"	v	module:ppm
+cffac	src/GR1D_module.F90	/^  real*8 cffac$/;"	v	module:GR1D_module
+cffac_original	src/GR1D_module.F90	/^  real*8 cffac_original$/;"	v	module:GR1D_module
+chi	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: chi(/;"	v	module:leakage_rosswog
+clight	src/nuc_eos/eosmodule.F90	/^   real*8,save :: clight /;"	v	module:eosmodule
+clite	src/GR1D_module.F90	/^  real*8,parameter :: clite /;"	v	module:GR1D_module
+clite_g	src/GR1D_module.F90	/^  real*8,parameter :: clite_g /;"	v	module:GR1D_module
+collapse	src/collapse.F90	/^subroutine collapse$/;"	s
+compute_diffusion_ros	src/leakage_rosswog/leak_rosswog.F90	/^  subroutine compute_diffusion_ros$/;"	s	module:leakage_rosswog
+compute_emission_ros	src/leakage_rosswog/leak_rosswog.F90	/^  subroutine compute_emission_ros$/;"	s	module:leakage_rosswog
+compute_update_ros	src/leakage_rosswog/leak_rosswog.F90	/^  subroutine compute_update_ros$/;"	s	module:leakage_rosswog
+con2GR	src/gravity.F90	/^subroutine con2GR$/;"	s
+con2prim	src/con2prim.F90	/^subroutine con2prim$/;"	s
+con2prim_1	src/con2prim.F90	/^subroutine con2prim_1$/;"	s
+con2prim_pt	src/con2prim.F90	/^subroutine con2prim_pt(/;"	s
+con2prim_pt_rot	src/con2prim.F90	/^subroutine con2prim_pt_rot(/;"	s
+coolingsource	src/GR1D_module.F90	/^  real*8,allocatable,save :: coolingsource(/;"	v	module:GR1D_module
+cs2	src/GR1D_module.F90	/^  real*8,allocatable,save :: cs2(/;"	v	module:GR1D_module
+cs2m	src/GR1D_module.F90	/^  real*8,allocatable,save :: cs2(:), cs2m(/;"	v	module:GR1D_module
+cs2p	src/GR1D_module.F90	/^  real*8,allocatable,save :: cs2(:), cs2m(:), cs2p(/;"	v	module:GR1D_module
+deallocate_leakage_rosswog	src/leakage_rosswog/leak_rosswog.F90	/^  subroutine deallocate_leakage_rosswog$/;"	s	module:leakage_rosswog
+deallocate_ppm	src/ppm.F90	/^  subroutine deallocate_ppm$/;"	s	module:ppm
+delta_r	src/ppm.F90	/^  real*8,allocatable :: delta_r(/;"	v	module:ppm
+denergyloss	src/GR1D_module.F90	/^  real*8,allocatable,save :: denergyloss(/;"	v	module:GR1D_module
+depsdt	src/GR1D_module.F90	/^  real*8,allocatable,save :: depsdt(/;"	v	module:GR1D_module
+depsdt	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: depsdt(/;"	v	module:leakage_rosswog
+dnupdr	src/GR1D_module.F90	/^  real*8,allocatable,save :: press_nu(:),dnupdr(/;"	v	module:GR1D_module
+do_M1	src/GR1D_module.F90	/^  logical :: do_M1 /;"	v	module:GR1D_module
+do_NNBrem	src/GR1D_module.F90	/^  logical :: do_NNBrem /;"	v	module:GR1D_module
+do_effectivepotential	src/GR1D_module.F90	/^  logical :: do_effectivepotential /;"	v	module:GR1D_module
+do_heating	src/GR1D_module.F90	/^  logical :: do_heating /;"	v	module:GR1D_module
+do_highcorrection	src/ye_of_rho.F90	/^  logical, save :: do_highcorrection$/;"	v	module:ye_of_rho
+do_hydro	src/GR1D_module.F90	/^  logical :: do_hydro /;"	v	module:GR1D_module
+do_leak_ros	src/GR1D_module.F90	/^  logical :: do_leak_ros /;"	v	module:GR1D_module
+do_nupress	src/GR1D_module.F90	/^  logical :: do_nupress /;"	v	module:GR1D_module
+do_profile_rmax	src/GR1D_module.F90	/^  logical do_profile_rmax$/;"	v	module:GR1D_module
+do_restart	src/GR1D_module.F90	/^  logical do_restart$/;"	v	module:GR1D_module
+do_rotation	src/GR1D_module.F90	/^  logical :: do_rotation /;"	v	module:GR1D_module
+do_ye_of_rho	src/GR1D_module.F90	/^  logical :: do_ye_of_rho /;"	v	module:GR1D_module
+do_yeofrhofit	src/GR1D_module.F90	/^  logical :: do_yeofrhofit /;"	v	module:GR1D_module
+dphidr	src/GR1D_module.F90	/^  real*8,allocatable,save :: dphidr(/;"	v	module:GR1D_module
+dt	src/GR1D_module.F90	/^  real*8 dt,/;"	v	module:GR1D_module
+dt_max	src/GR1D_module.F90	/^  real*8 :: dt_max /;"	v	module:GR1D_module
+dt_min	src/GR1D_module.F90	/^  real*8 :: dt_min /;"	v	module:GR1D_module
+dt_reduction_factor	src/GR1D_module.F90	/^  real*8 :: dt_reduction_factor /;"	v	module:GR1D_module
+dtout	src/GR1D_module.F90	/^  real*8 dtout,/;"	v	module:GR1D_module
+dtout0	src/GR1D_module.F90	/^  real*8 dtout0,/;"	v	module:GR1D_module
+dtout_restart	src/GR1D_module.F90	/^  real*8 dtout,dtout_scalar,dtout_restart$/;"	v	module:GR1D_module
+dtout_restart0	src/GR1D_module.F90	/^  real*8 dtout0,dtout_scalar0,dtout_restart0$/;"	v	module:GR1D_module
+dtout_scalar	src/GR1D_module.F90	/^  real*8 dtout,dtout_scalar,/;"	v	module:GR1D_module
+dtout_scalar0	src/GR1D_module.F90	/^  real*8 dtout0,dtout_scalar0,/;"	v	module:GR1D_module
+dtp	src/GR1D_module.F90	/^  real*8 dt,dtp,/;"	v	module:GR1D_module
+dtpp	src/GR1D_module.F90	/^  real*8 dt,dtp,dtpp$/;"	v	module:GR1D_module
+dyedt	src/GR1D_module.F90	/^  real*8,allocatable,save :: depsdt(:),dyedt(/;"	v	module:GR1D_module
+dyedt	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: dyedt(/;"	v	module:leakage_rosswog
+dyedt_hydro	src/GR1D_module.F90	/^  real*8,allocatable,save :: dyedt_hydro(/;"	v	module:GR1D_module
+dyedt_neutrino	src/GR1D_module.F90	/^  real*8,allocatable,save :: dyedt_hydro(:),dyedt_neutrino(/;"	v	module:GR1D_module
+dynamic_output_control	src/GR1D_module.F90	/^  logical dynamic_output_control$/;"	v	module:GR1D_module
+eas	src/GR1D_module.F90	/^  real*8,allocatable,save :: eas(/;"	v	module:GR1D_module
+elechem	src/GR1D_module.F90	/^  real*8,allocatable,save :: nuchem(:),elechem(/;"	v	module:GR1D_module
+energy_gf	src/GR1D_module.F90	/^  real*8,parameter :: energy_gf /;"	v	module:GR1D_module
+energy_nu	src/GR1D_module.F90	/^  real*8,allocatable,save :: energy_nu(/;"	v	module:GR1D_module
+energy_shift	src/nuc_eos/eosmodule.F90	/^   real*8 :: energy_shift /;"	v	module:eosmodule
+entropy	src/GR1D_module.F90	/^  real*8,allocatable,save :: entropy(/;"	v	module:GR1D_module
+eos	src/eos.F90	/^subroutine eos(/;"	s
+eos_full	src/eos.F90	/^subroutine eos_full(/;"	s
+eos_rf_prec	src/GR1D_module.F90	/^  real*8,parameter :: eos_rf_prec /;"	v	module:GR1D_module
+eos_rhomax	src/nuc_eos/eosmodule.F90	/^   real*8 :: eos_rhomin,eos_rhomax$/;"	v	module:eosmodule
+eos_rhomin	src/nuc_eos/eosmodule.F90	/^   real*8 :: eos_rhomin,/;"	v	module:eosmodule
+eos_table_name	src/GR1D_module.F90	/^  character*256 eos_table_name$/;"	v	module:GR1D_module
+eos_tempmax	src/nuc_eos/eosmodule.F90	/^   real*8 :: eos_tempmin,eos_tempmax$/;"	v	module:eosmodule
+eos_tempmin	src/nuc_eos/eosmodule.F90	/^   real*8 :: eos_tempmin,/;"	v	module:eosmodule
+eos_yemax	src/nuc_eos/eosmodule.F90	/^   real*8 :: eos_yemin,eos_yemax$/;"	v	module:eosmodule
+eos_yemin	src/nuc_eos/eosmodule.F90	/^   real*8 :: eos_yemin,/;"	v	module:eosmodule
+eoskey	src/GR1D_module.F90	/^  integer eoskey$/;"	v	module:GR1D_module
+eosmodule	src/nuc_eos/eosmodule.F90	/^ module eosmodule$/;"	m
+epannihil	src/GR1D_module.F90	/^  real*8,allocatable,save :: epannihil(/;"	v	module:GR1D_module
+epannihil_sourceterm	src/GR1D_module.F90	/^  real*8,allocatable,save :: epannihil_sourceterm(/;"	v	module:GR1D_module
+eps	src/GR1D_module.F90	/^  real*8,allocatable,save :: eps(/;"	v	module:GR1D_module
+eps_gf	src/GR1D_module.F90	/^  real*8,parameter :: eps_gf /;"	v	module:GR1D_module
+eps_kin	src/GR1D_module.F90	/^  real*8,allocatable,save :: eps_kin(/;"	v	module:GR1D_module
+epsilon1	src/ppm.F90	/^  real*8 :: epsilon1 /;"	v	module:ppm
+epsilon2	src/ppm.F90	/^  real*8 :: epsilon2 /;"	v	module:ppm
+epsm	src/GR1D_module.F90	/^  real*8,allocatable,save :: eps(:),epsp(:),epsm(/;"	v	module:GR1D_module
+epsp	src/GR1D_module.F90	/^  real*8,allocatable,save :: eps(:),epsp(/;"	v	module:GR1D_module
+erg_to_mev	src/GR1D_module.F90	/^  real*8,parameter :: erg_to_mev /;"	v	module:GR1D_module
+eta1	src/ppm.F90	/^  real*8 :: eta1 /;"	v	module:ppm
+eta2	src/ppm.F90	/^  real*8 :: eta2 /;"	v	module:ppm
+eta_e	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: eta_e(/;"	v	module:leakage_rosswog
+eta_hat	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: eta_hat(/;"	v	module:leakage_rosswog
+eta_n	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: eta_n(/;"	v	module:leakage_rosswog
+eta_np	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: eta_np(/;"	v	module:leakage_rosswog
+eta_nua	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: eta_nua(/;"	v	module:leakage_rosswog
+eta_nue	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: eta_nue(/;"	v	module:leakage_rosswog
+eta_nux	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: eta_nux(/;"	v	module:leakage_rosswog
+eta_p	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: eta_p(/;"	v	module:leakage_rosswog
+eta_pn	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: eta_pn(/;"	v	module:leakage_rosswog
+fake_neutrinos	src/GR1D_module.F90	/^  logical :: fake_neutrinos /;"	v	module:GR1D_module
+find_ruf_tau	src/leakage_rosswog/leak_rosswog.F90	/^  subroutine find_ruf_tau$/;"	s	module:leakage_rosswog
+findaccretionradii	src/analysis.F90	/^subroutine findaccretionradii$/;"	s
+findall	src/nuc_eos/nuc_eos.F90	/^subroutine findall(/;"	s
+findall_short	src/nuc_eos/nuc_eos.F90	/^subroutine findall_short(/;"	s
+findnaninf	src/tools.F90	/^ subroutine findnaninf(/;"	s
+findtemp	src/nuc_eos/findtemp.F90	/^subroutine findtemp(/;"	s
+findtemp_entropy	src/nuc_eos/findtemp.F90	/^subroutine findtemp_entropy(/;"	s
+findthis	src/nuc_eos/nuc_eos.F90	/^subroutine findthis(/;"	s
+fit_ye	src/ye_of_rho.F90	/^  subroutine fit_ye(/;"	s	module:ye_of_rho
+flux_M1	src/GR1D_module.F90	/^  real*8,allocatable,save :: flux_M1(/;"	v	module:GR1D_module
+flux_M1_energy	src/GR1D_module.F90	/^  real*8,allocatable,save :: flux_M1_energy(/;"	v	module:GR1D_module
+flux_M1_scatter	src/GR1D_module.F90	/^  real*8,allocatable,save :: flux_M1_scatter(/;"	v	module:GR1D_module
+flux_diff	src/GR1D_module.F90	/^  real*8,allocatable,save :: flux_diff(/;"	v	module:GR1D_module
+flux_differences_hlle	src/flux_differences_HLLE.F90	/^subroutine flux_differences_hlle$/;"	s
+flux_type	src/GR1D_module.F90	/^  character*80 flux_type$/;"	v	module:GR1D_module
+force_restart_output	src/GR1D_module.F90	/^  logical force_restart_output$/;"	v	module:GR1D_module
+fsc	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: fsc /;"	v	module:leakage_rosswog
+gain_radius	src/GR1D_module.F90	/^  real*8 gain_radius$/;"	v	module:GR1D_module
+gamma1	src/eos.F90	/^  real*8 gamma1$/;"	v	module:hybrid_eos_module
+gamma2	src/eos.F90	/^  real*8 gamma2$/;"	v	module:hybrid_eos_module
+gamma_0	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: gamma_0 /;"	v	module:leakage_rosswog
+gammath	src/eos.F90	/^  real*8 gammath$/;"	v	module:hybrid_eos_module
+generate_filename	src/output.F90	/^subroutine generate_filename(/;"	s
+generate_filename	src/restart_H5.F90	/^     subroutine generate_filename(/;"	s	subroutine:restart_output_h5
+geometry	src/GR1D_module.F90	/^  integer geometry$/;"	v	module:GR1D_module
+get_EOS_variables	src/leakage_rosswog/leak_rosswog.F90	/^  subroutine get_EOS_variables$/;"	s	module:leakage_rosswog
+get_OSC_ana_r	src/analysis.F90	/^subroutine get_OSC_ana_r(/;"	s
+get_OSC_ana_time	src/analysis.F90	/^subroutine get_OSC_ana_time(/;"	s
+get_binding_energy	src/analysis.F90	/^subroutine get_binding_energy$/;"	s
+get_double_parameter	src/input_parser.F90	/^ subroutine get_double_parameter(/;"	s	subroutine:input_parser
+get_fermi_integral	src/leakage_rosswog/leak_rosswog.F90	/^function get_fermi_integral(/;"	f
+get_integer_parameter	src/input_parser.F90	/^ subroutine get_integer_parameter(/;"	s	subroutine:input_parser
+get_logical_parameter	src/input_parser.F90	/^ subroutine get_logical_parameter(/;"	s	subroutine:input_parser
+get_shock_radius	src/analysis.F90	/^subroutine get_shock_radius$/;"	s
+get_string_parameter	src/input_parser.F90	/^ subroutine get_string_parameter(/;"	s	subroutine:input_parser
+ggrav	src/GR1D_module.F90	/^  real*8,parameter :: ggrav /;"	v	module:GR1D_module
+ggrav	src/nuc_eos/eosmodule.F90	/^   real*8,save :: ggrav /;"	v	module:eosmodule
+ghosts1	src/GR1D_module.F90	/^  integer ghosts1$/;"	v	module:GR1D_module
+gravity	src/gravity.F90	/^subroutine gravity$/;"	s
+gravity_active	src/GR1D_module.F90	/^  logical gravity_active$/;"	v	module:GR1D_module
+gravsource	src/GR1D_module.F90	/^  real*8,allocatable,save :: gravsource(/;"	v	module:GR1D_module
+grid	src/grid.F90	/^subroutine grid(/;"	s
+grid_custom_dx1	src/GR1D_module.F90	/^  real*8 grid_custom_dx1$/;"	v	module:GR1D_module
+grid_custom_inner	src/GR1D_module.F90	/^  real*8 grid_custom_inner$/;"	v	module:GR1D_module
+grid_custom_number	src/GR1D_module.F90	/^  integer grid_custom_number$/;"	v	module:GR1D_module
+grid_custom_rad1	src/GR1D_module.F90	/^  real*8 grid_custom_rad1$/;"	v	module:GR1D_module
+grid_rmax	src/GR1D_module.F90	/^  real*8 grid_rmax$/;"	v	module:GR1D_module
+gridtype	src/GR1D_module.F90	/^  character*80 gridtype$/;"	v	module:GR1D_module
+handle_output	src/driver.F90	/^subroutine handle_output$/;"	s
+have_ns_energies	src/leakage_rosswog/leak_rosswog.F90	/^  logical :: have_ns_energies /;"	v	module:leakage_rosswog
+have_old_tau	src/leakage_rosswog/leak_rosswog.F90	/^  logical,save :: have_old_tau$/;"	v	module:leakage_rosswog
+hbarc_mevcm	src/GR1D_module.F90	/^  real*8,parameter :: hbarc_mevcm /;"	v	module:GR1D_module
+hc_mevcm	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: hc_mevcm /;"	v	module:leakage_rosswog
+heat_em	src/leakage_rosswog/leak_rosswog.F90	/^  real*8 :: heat_em(/;"	v	module:leakage_rosswog
+heat_erms	src/leakage_rosswog/leak_rosswog.F90	/^  real*8 :: heat_erms(/;"	v	module:leakage_rosswog
+heat_fac	src/GR1D_module.F90	/^  real*8 heat_fac$/;"	v	module:GR1D_module
+hybrid_eos	src/eos.F90	/^subroutine hybrid_eos(/;"	s
+hybrid_eos_module	src/eos.F90	/^module hybrid_eos_module$/;"	m
+hybridgamma1	src/GR1D_module.F90	/^  real*8 hybridgamma1$/;"	v	module:GR1D_module
+hybridgamma2	src/GR1D_module.F90	/^  real*8 hybridgamma2$/;"	v	module:GR1D_module
+hybridgamma_th	src/GR1D_module.F90	/^  real*8 hybridgamma_th$/;"	v	module:GR1D_module
+hydro_formulation	src/GR1D_module.F90	/^  character*80 hydro_formulation$/;"	v	module:GR1D_module
+idealK1	src/eos.F90	/^  real*8 idealK1$/;"	v	module:ideal_eos_module
+ideal_eos	src/eos.F90	/^subroutine ideal_eos(/;"	s
+ideal_eos_module	src/eos.F90	/^module ideal_eos_module$/;"	m
+idealgamma	src/eos.F90	/^  real*8 idealgamma$/;"	v	module:ideal_eos_module
+ies	src/GR1D_module.F90	/^  real*8,allocatable,save :: ies(/;"	v	module:GR1D_module
+ies_sourceterm	src/GR1D_module.F90	/^  real*8,allocatable,save :: ies_sourceterm(/;"	v	module:GR1D_module
+igain	src/GR1D_module.F90	/^  integer igain(/;"	v	module:GR1D_module
+include_Ielectron_exp	src/GR1D_module.F90	/^  logical :: include_Ielectron_exp$/;"	v	module:GR1D_module
+include_Ielectron_imp	src/GR1D_module.F90	/^  logical :: include_Ielectron_imp$/;"	v	module:GR1D_module
+include_energycoupling_exp	src/GR1D_module.F90	/^  logical :: include_energycoupling_exp$/;"	v	module:GR1D_module
+include_energycoupling_imp	src/GR1D_module.F90	/^  logical :: include_energycoupling_imp$/;"	v	module:GR1D_module
+include_epannihil_kernels	src/GR1D_module.F90	/^  logical :: include_epannihil_kernels$/;"	v	module:GR1D_module
+include_nes_kernels	src/GR1D_module.F90	/^  logical :: include_nes_kernels$/;"	v	module:GR1D_module
+init_hybrid_eos	src/eos.F90	/^subroutine init_hybrid_eos$/;"	s
+initial_data	src/GR1D_module.F90	/^  character*80 initial_data$/;"	v	module:GR1D_module
+initialize_arrays	src/initialize_vars.F90	/^subroutine initialize_arrays$/;"	s
+initialize_leakage_rosswog	src/leakage_rosswog/leak_rosswog.F90	/^  subroutine initialize_leakage_rosswog$/;"	s	module:leakage_rosswog
+initialize_vars	src/initialize_vars.F90	/^subroutine initialize_vars$/;"	s
+input_file	src/GR1D_module.F90	/^  character*80 :: input_file /;"	v	module:GR1D_module
+input_parser	src/input_parser.F90	/^subroutine input_parser$/;"	s
+internal_energy	src/GR1D_module.F90	/^  real*8 internal_energy$/;"	v	module:GR1D_module
+interpolate_ye	src/ye_of_rho.F90	/^  subroutine interpolate_ye(/;"	s	module:ye_of_rho
+intp2d_many_mod	src/nulibtable/linterp_many_mod.F90	/^    SUBROUTINE intp2d_many_mod(/;"	s
+intp3d	src/nuc_eos/linterp.f	/^      SUBROUTINE intp3d /;"	s
+intp3d_many	src/nuc_eos/linterp_many.F90	/^      SUBROUTINE intp3d_many /;"	s
+intp3d_many_mod	src/nulibtable/linterp_many_mod.F90	/^      SUBROUTINE intp3d_many_mod(/;"	s
+iorder_hydro	src/GR1D_module.F90	/^  integer iorder_hydro$/;"	v	module:GR1D_module
+ishock	src/GR1D_module.F90	/^  integer ishock(/;"	v	module:GR1D_module
+isokay	src/input_parser.F90	/^ function isokay(/;"	f
+jobname	src/GR1D_module.F90	/^  character*128 jobname$/;"	v	module:GR1D_module
+kappa_tilde_nu_abs	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: kappa_tilde_nu_abs(/;"	v	module:leakage_rosswog
+kappa_tilde_nu_scat	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: kappa_tilde_nu_scat(/;"	v	module:leakage_rosswog
+kb_erg	src/GR1D_module.F90	/^  real*8,parameter :: kb_erg /;"	v	module:GR1D_module
+kb_erg	src/nuc_eos/eosmodule.F90	/^   real*8,save :: kb_erg /;"	v	module:eosmodule
+kb_mev	src/GR1D_module.F90	/^  real*8,parameter :: kb_mev /;"	v	module:GR1D_module
+kb_mev	src/nuc_eos/eosmodule.F90	/^   real*8,save :: kb_mev /;"	v	module:eosmodule
+lIarea	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable,save :: lIarea(/;"	v	module:leakage_rosswog
+lcs2	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: lcs2(/;"	v	module:leakage_rosswog
+ldt	src/leakage_rosswog/leak_rosswog.F90	/^  real*8 :: ldt /;"	v	module:leakage_rosswog
+leak_global_imax	src/leakage_rosswog/leak_rosswog.F90	/^  integer :: leak_global_imax$/;"	v	module:leakage_rosswog
+leak_rosswog	src/leakage_rosswog/leak_rosswog.F90	/^  subroutine leak_rosswog$/;"	s	module:leakage_rosswog
+leak_tau	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable,save :: leak_tau(/;"	v	module:leakage_rosswog
+leakage_rosswog	src/leakage_rosswog/leak_rosswog.F90	/^module leakage_rosswog$/;"	m
+length_gf	src/GR1D_module.F90	/^  real*8,parameter :: length_gf /;"	v	module:GR1D_module
+lent	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: lent(/;"	v	module:leakage_rosswog
+leps	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: leps(/;"	v	module:leakage_rosswog
+lepton_blocking	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: lepton_blocking(/;"	v	module:leakage_rosswog
+lmass	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: lmass(/;"	v	module:leakage_rosswog
+logrho	src/nuc_eos/eosmodule.F90	/^   real*8,allocatable,save :: logrho(/;"	v	module:eosmodule
+logrhoinlogrho	src/ye_of_rho.F90	/^  real*8,allocatable,save :: logrhoinlogrho(/;"	v	module:ye_of_rho
+logtemp	src/nuc_eos/eosmodule.F90	/^   real*8,allocatable,save :: logtemp(/;"	v	module:eosmodule
+lpress	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: lpress(/;"	v	module:leakage_rosswog
+lrho	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: lrho(/;"	v	module:leakage_rosswog
+ltemp	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: ltemp(/;"	v	module:leakage_rosswog
+lum	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: lum(/;"	v	module:leakage_rosswog
+lum_gf	src/GR1D_module.F90	/^  real*8,parameter :: lum_gf /;"	v	module:GR1D_module
+lvol	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable,save :: lvol(/;"	v	module:leakage_rosswog
+lx1	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable,save :: lx1(/;"	v	module:leakage_rosswog
+lx1i	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable,save :: lx1i(/;"	v	module:leakage_rosswog
+lye	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: lye(/;"	v	module:leakage_rosswog
+map_envelope_binding_energy	src/analysis.F90	/^subroutine map_envelope_binding_energy(/;"	s
+map_find_index	src/map_profile.F90	/^subroutine map_find_index(/;"	s
+map_limit	src/map_profile.F90	/^subroutine map_limit(/;"	s
+map_linterp	src/map_profile.F90	/^subroutine map_linterp(/;"	s
+map_map	src/map_profile.F90	/^subroutine map_map(/;"	s
+map_profile	src/map_profile.F90	/^subroutine map_profile(/;"	s
+mass	src/GR1D_module.F90	/^  real*8,allocatable,save :: mass(/;"	v	module:GR1D_module
+mass1	src/GR1D_module.F90	/^  real*8,allocatable,save :: mass(:), mass1(/;"	v	module:GR1D_module
+mass_analysis	src/analysis.F90	/^subroutine mass_analysis$/;"	s
+mass_gf	src/GR1D_module.F90	/^  real*8,parameter :: mass_gf /;"	v	module:GR1D_module
+mass_inner_core	src/GR1D_module.F90	/^  real*8 mass_inner_core$/;"	v	module:GR1D_module
+mass_interior	src/mass_interior.F90	/^subroutine mass_interior$/;"	s
+massfrac_a	src/GR1D_module.F90	/^  real*8,allocatable,save :: massfrac_a(/;"	v	module:GR1D_module
+massfrac_abar	src/GR1D_module.F90	/^  real*8,allocatable,save :: massfrac_abar(/;"	v	module:GR1D_module
+massfrac_h	src/GR1D_module.F90	/^  real*8,allocatable,save :: massfrac_h(/;"	v	module:GR1D_module
+massfrac_n	src/GR1D_module.F90	/^  real*8,allocatable,save :: massfrac_n(/;"	v	module:GR1D_module
+massfrac_p	src/GR1D_module.F90	/^  real*8,allocatable,save :: massfrac_p(/;"	v	module:GR1D_module
+massfrac_zbar	src/GR1D_module.F90	/^  real*8,allocatable,save :: massfrac_zbar(/;"	v	module:GR1D_module
+massn_cgs	src/GR1D_module.F90	/^  real*8,parameter :: massn_cgs /;"	v	module:GR1D_module
+maxindex	src/ye_of_rho.F90	/^  integer,save :: maxindex$/;"	v	module:ye_of_rho
+maxrho	src/ye_of_rho.F90	/^  real*8,save :: maxrho$/;"	v	module:ye_of_rho
+mbary12	src/GR1D_module.F90	/^  real*8 mbaryX,mbary12$/;"	v	module:GR1D_module
+mbaryX	src/GR1D_module.F90	/^  real*8 mbaryX,/;"	v	module:GR1D_module
+me_mev	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: me_mev /;"	v	module:leakage_rosswog
+mev_to_erg	src/GR1D_module.F90	/^  real*8,parameter :: mev_to_erg /;"	v	module:GR1D_module
+mev_to_erg	src/nuc_eos/eosmodule.F90	/^   real*8,save :: mev_to_erg /;"	v	module:eosmodule
+mgrav	src/GR1D_module.F90	/^  real*8,allocatable,save :: dphidr(:),mgrav(/;"	v	module:GR1D_module
+mgrav12	src/GR1D_module.F90	/^  real*8 mgravX,mgrav12$/;"	v	module:GR1D_module
+mgravX	src/GR1D_module.F90	/^  real*8 mgravX,/;"	v	module:GR1D_module
+mgravi	src/GR1D_module.F90	/^  real*8,allocatable,save :: dphidr(:),mgrav(:),mgravi(/;"	v	module:GR1D_module
+minmod	src/TVD_reconstruction.F90	/^real*8 function minmod(/;"	f
+minrho	src/ye_of_rho.F90	/^  real*8,save :: minrho$/;"	v	module:ye_of_rho
+mom_nu	src/GR1D_module.F90	/^  real*8,allocatable,save :: mom_nu(/;"	v	module:GR1D_module
+n1	src/GR1D_module.F90	/^  integer n1$/;"	v	module:GR1D_module
+n_cons	src/GR1D_module.F90	/^  integer n_cons$/;"	v	module:GR1D_module
+neutrino_pressure	src/neutrino_pressure.F90	/^subroutine neutrino_pressure$/;"	s
+nrho	src/nuc_eos/eosmodule.F90	/^   integer,save :: nrho,/;"	v	module:eosmodule
+ns_energy	src/leakage_rosswog/leak_rosswog.F90	/^  real*8 :: ns_energy(/;"	v	module:leakage_rosswog
+ns_location	src/leakage_rosswog/leak_rosswog.F90	/^  integer :: ns_location(/;"	v	module:leakage_rosswog
+nt	src/GR1D_module.F90	/^  inte/;"	v	module:GR1D_module
+ntemp	src/nuc_eos/eosmodule.F90	/^   integer,save :: nrho,ntemp,/;"	v	module:eosmodule
+ntinfo	src/GR1D_module.F90	/^  integer ntout,ntout_scalar,ntinfo,/;"	v	module:GR1D_module
+ntinfo0	src/GR1D_module.F90	/^  integer ntout0,ntout_scalar0,ntinfo0,/;"	v	module:GR1D_module
+ntmax	src/GR1D_module.F90	/^  integer nt,ntmax$/;"	v	module:GR1D_module
+ntout	src/GR1D_module.F90	/^  integer ntout,/;"	v	module:GR1D_module
+ntout0	src/GR1D_module.F90	/^  integer ntout0,/;"	v	module:GR1D_module
+ntout_restart	src/GR1D_module.F90	/^  integer ntout,ntout_scalar,ntinfo,ntout_restart$/;"	v	module:GR1D_module
+ntout_restart0	src/GR1D_module.F90	/^  integer ntout0,ntout_scalar0,ntinfo0,ntout_restart0$/;"	v	module:GR1D_module
+ntout_scalar	src/GR1D_module.F90	/^  integer ntout,ntout_scalar,/;"	v	module:GR1D_module
+ntout_scalar0	src/GR1D_module.F90	/^  integer ntout0,ntout_scalar0,/;"	v	module:GR1D_module
+nu_press_sources	src/neutrino_pressure.F90	/^subroutine nu_press_sources$/;"	s
+nuc_eos_full	src/nuc_eos/nuc_eos.F90	/^subroutine nuc_eos_full(/;"	s
+nuc_eos_short	src/nuc_eos/nuc_eos.F90	/^subroutine nuc_eos_short(/;"	s
+nuc_low_eos	src/nuc_eos/nuc_eos.F90	/^subroutine nuc_low_eos(/;"	s
+nuchem	src/GR1D_module.F90	/^  real*8,allocatable,save :: nuchem(/;"	v	module:GR1D_module
+nulib_emissivity_gf	src/GR1D_module.F90	/^  real*8,parameter :: nulib_emissivity_gf /;"	v	module:GR1D_module
+nulib_energy_gf	src/GR1D_module.F90	/^  real*8,parameter :: nulib_energy_gf /;"	v	module:GR1D_module
+nulib_kernel_gf	src/GR1D_module.F90	/^  real*8,parameter :: nulib_kernel_gf /;"	v	module:GR1D_module
+nulib_opacity_gf	src/GR1D_module.F90	/^  real*8,parameter :: nulib_opacity_gf /;"	v	module:GR1D_module
+nulibtable	src/nulibtable/nulibtable.F90	/^module nulibtable$/;"	m
+nulibtable_Itable_Phi0	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_Itable_Phi0(/;"	v	module:nulibtable
+nulibtable_Itable_Phi1	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_Itable_Phi1(/;"	v	module:nulibtable
+nulibtable_absopacity	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_absopacity(/;"	v	module:nulibtable
+nulibtable_ebottom	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_ebottom(/;"	v	module:nulibtable
+nulibtable_emissivities	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_emissivities(/;"	v	module:nulibtable
+nulibtable_energies	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_energies(/;"	v	module:nulibtable
+nulibtable_epannihil_range_species_range_energy2	src/nulibtable/nulibtable.F90	/^subroutine nulibtable_epannihil_range_species_range_energy2(/;"	s
+nulibtable_epannihil_single_species_range_energy2	src/nulibtable/nulibtable.F90	/^subroutine nulibtable_epannihil_single_species_range_energy2(/;"	s
+nulibtable_epannihiltable_Phi0	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_epannihiltable_Phi0(/;"	v	module:nulibtable
+nulibtable_epannihiltable_Phi1	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_epannihiltable_Phi1(/;"	v	module:nulibtable
+nulibtable_etop	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_etop(/;"	v	module:nulibtable
+nulibtable_ewidths	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_ewidths(/;"	v	module:nulibtable
+nulibtable_inelastic_range_species_range_energy2	src/nulibtable/nulibtable.F90	/^subroutine nulibtable_inelastic_range_species_range_energy2(/;"	s
+nulibtable_inelastic_single_species_range_energy2	src/nulibtable/nulibtable.F90	/^subroutine nulibtable_inelastic_single_species_range_energy2(/;"	s
+nulibtable_inv_energies	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_inv_energies(/;"	v	module:nulibtable
+nulibtable_logIeta	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_logIeta(/;"	v	module:nulibtable
+nulibtable_logIeta_max	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_logIeta_max$/;"	v	module:nulibtable
+nulibtable_logIeta_min	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_logIeta_min$/;"	v	module:nulibtable
+nulibtable_logItemp	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_logItemp(/;"	v	module:nulibtable
+nulibtable_logItemp_max	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_logItemp_max$/;"	v	module:nulibtable
+nulibtable_logItemp_min	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_logItemp_min$/;"	v	module:nulibtable
+nulibtable_logenergies	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_logenergies(/;"	v	module:nulibtable
+nulibtable_logetop	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_logetop(/;"	v	module:nulibtable
+nulibtable_logrho	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_logrho(/;"	v	module:nulibtable
+nulibtable_logrho_max	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_logrho_max$/;"	v	module:nulibtable
+nulibtable_logrho_min	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_logrho_min$/;"	v	module:nulibtable
+nulibtable_logtemp	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_logtemp(/;"	v	module:nulibtable
+nulibtable_logtemp_max	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_logtemp_max$/;"	v	module:nulibtable
+nulibtable_logtemp_min	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_logtemp_min$/;"	v	module:nulibtable
+nulibtable_nIeta	src/nulibtable/nulibtable.F90	/^  integer :: nulibtable_nIeta$/;"	v	module:nulibtable
+nulibtable_nItemp	src/nulibtable/nulibtable.F90	/^  integer :: nulibtable_nItemp$/;"	v	module:nulibtable
+nulibtable_nrho	src/nulibtable/nulibtable.F90	/^  integer :: nulibtable_nrho$/;"	v	module:nulibtable
+nulibtable_ntemp	src/nulibtable/nulibtable.F90	/^  integer :: nulibtable_ntemp$/;"	v	module:nulibtable
+nulibtable_number_easvariables	src/nulibtable/nulibtable.F90	/^  integer :: nulibtable_number_easvariables$/;"	v	module:nulibtable
+nulibtable_number_groups	src/nulibtable/nulibtable.F90	/^  integer :: nulibtable_number_groups$/;"	v	module:nulibtable
+nulibtable_number_species	src/nulibtable/nulibtable.F90	/^  integer :: nulibtable_number_species$/;"	v	module:nulibtable
+nulibtable_nye	src/nulibtable/nulibtable.F90	/^  integer :: nulibtable_nye$/;"	v	module:nulibtable
+nulibtable_range_species_range_energy	src/nulibtable/nulibtable.F90	/^subroutine nulibtable_range_species_range_energy(/;"	s
+nulibtable_reader	src/nulibtable/nulibtable_reader.F90	/^subroutine nulibtable_reader(/;"	s
+nulibtable_scatopacity	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_scatopacity(/;"	v	module:nulibtable
+nulibtable_single_species_range_energy	src/nulibtable/nulibtable.F90	/^subroutine nulibtable_single_species_range_energy(/;"	s
+nulibtable_single_species_single_energy	src/nulibtable/nulibtable.F90	/^subroutine nulibtable_single_species_single_energy(/;"	s
+nulibtable_ye	src/nulibtable/nulibtable.F90	/^  real*8, allocatable,save :: nulibtable_ye(/;"	v	module:nulibtable
+nulibtable_ye_max	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_ye_max$/;"	v	module:nulibtable
+nulibtable_ye_min	src/nulibtable/nulibtable.F90	/^  real*8 :: nulibtable_ye_min$/;"	v	module:nulibtable
+number_eas	src/GR1D_module.F90	/^  integer :: number_eas$/;"	v	module:GR1D_module
+number_groups	src/GR1D_module.F90	/^  integer :: number_groups$/;"	v	module:GR1D_module
+number_species	src/GR1D_module.F90	/^  integer :: number_species$/;"	v	module:GR1D_module
+number_species_to_evolve	src/GR1D_module.F90	/^  integer :: number_species_to_evolve$/;"	v	module:GR1D_module
+nvars	src/nuc_eos/eosmodule.F90	/^   integer, parameter :: nvars /;"	v	module:eosmodule
+nye	src/nuc_eos/eosmodule.F90	/^   integer,save :: nrho,ntemp,nye$/;"	v	module:eosmodule
+omega	src/GR1D_module.F90	/^  real*8,allocatable,save :: omega(/;"	v	module:GR1D_module
+omega1	src/ppm.F90	/^  real*8 :: omega1 /;"	v	module:ppm
+omega2	src/ppm.F90	/^  real*8 :: omega2 /;"	v	module:ppm
+omega_A	src/GR1D_module.F90	/^  real*8 omega_A$/;"	v	module:GR1D_module
+omega_c	src/GR1D_module.F90	/^  real*8 omega_c$/;"	v	module:GR1D_module
+onethird	src/GR1D_module.F90	/^  real*8,parameter :: onethird /;"	v	module:GR1D_module
+opacity_table	src/GR1D_module.F90	/^  character*256 opacity_table /;"	v	module:GR1D_module
+outdir	src/GR1D_module.F90	/^  character*128 outdir$/;"	v	module:GR1D_module
+outinfo	src/outinfo.F90	/^subroutine outinfo$/;"	s
+output	src/leakage_rosswog/leak_rosswog.F90	/^  logical :: output$/;"	v	module:leakage_rosswog
+output_accretion	src/output.F90	/^subroutine output_accretion(/;"	s
+output_all	src/output.F90	/^subroutine output_all(/;"	s
+output_central	src/output.F90	/^subroutine output_central(/;"	s
+output_control	src/output_control.F90	/^subroutine output_control$/;"	s
+output_many_scalars	src/output.F90	/^subroutine output_many_scalars(/;"	s
+output_scalar	src/output.F90	/^subroutine output_scalar(/;"	s
+output_single	src/output.F90	/^subroutine output_single(/;"	s
+output_singlemod	src/output.F90	/^subroutine output_singlemod(/;"	s
+output_spectra	src/output.F90	/^    subroutine output_spectra(/;"	s
+output_timers	src/timers.F90	/^  subroutine output_timers$/;"	s	module:timers
+phi	src/GR1D_module.F90	/^  real*8,allocatable,save :: phi(/;"	v	module:GR1D_module
+phii	src/GR1D_module.F90	/^  real*8,allocatable,save :: phi(:),phii(/;"	v	module:GR1D_module
+pi	src/GR1D_module.F90	/^  real*8,parameter :: pi /;"	v	module:GR1D_module
+pi	src/nuc_eos/eosmodule.F90	/^   real*8,save :: pi /;"	v	module:eosmodule
+pi4	src/GR1D_module.F90	/^  real*8,parameter :: pi4 /;"	v	module:GR1D_module
+planck	src/GR1D_module.F90	/^  real*8,parameter :: planck /;"	v	module:GR1D_module
+polyK	src/eos.F90	/^  real*8 polyK$/;"	v	module:poly_eos_module
+poly_eos	src/eos.F90	/^subroutine poly_eos(/;"	s
+poly_eos_module	src/eos.F90	/^module poly_eos_module$/;"	m
+polygamma	src/eos.F90	/^  real*8 polygamma$/;"	v	module:poly_eos_module
+postStep_analysis	src/driver.F90	/^subroutine postStep_analysis$/;"	s
+ppm	src/ppm.F90	/^module ppm$/;"	m
+ppm_coefficients	src/ppm.F90	/^  subroutine ppm_coefficients$/;"	s	module:ppm
+ppm_flatten	src/ppm.F90	/^  subroutine ppm_flatten$/;"	s	module:ppm
+ppm_interpolate	src/ppm.F90	/^  subroutine ppm_interpolate(/;"	s	module:ppm
+ppm_monotonize	src/ppm.F90	/^  subroutine ppm_monotonize(/;"	s	module:ppm
+ppm_origin_TVD	src/GR1D_module.F90	/^  integer ppm_origin_TVD$/;"	v	module:GR1D_module
+ppm_steepen	src/ppm.F90	/^  subroutine ppm_steepen$/;"	s	module:ppm
+precision	src/nuc_eos/eosmodule.F90	/^   real*8 :: precision /;"	v	module:eosmodule
+press	src/GR1D_module.F90	/^  real*8,allocatable,save :: press(/;"	v	module:GR1D_module
+press_gf	src/GR1D_module.F90	/^  real*8,parameter :: press_gf /;"	v	module:GR1D_module
+press_nu	src/GR1D_module.F90	/^  real*8,allocatable,save :: press_nu(/;"	v	module:GR1D_module
+press_sources	src/press_sources.F90	/^subroutine press_sources$/;"	s
+pressm	src/GR1D_module.F90	/^  real*8,allocatable,save :: press(:),pressm(/;"	v	module:GR1D_module
+pressp	src/GR1D_module.F90	/^  real*8,allocatable,save :: press(:),pressm(:),pressp(/;"	v	module:GR1D_module
+presssource	src/GR1D_module.F90	/^  real*8,allocatable,save :: presssource(/;"	v	module:GR1D_module
+pressth	src/GR1D_module.F90	/^  real*8,allocatable,save :: pressth(/;"	v	module:GR1D_module
+prim2con	src/prim2con.F90	/^subroutine prim2con$/;"	s
+prim2con_1	src/prim2con.F90	/^subroutine prim2con_1$/;"	s
+prim2con_if	src/prim2con.F90	/^subroutine prim2con_if$/;"	s
+problem	src/problem.F90	/^subroutine problem$/;"	s
+profile_name	src/GR1D_module.F90	/^  character*128 profile_name$/;"	v	module:GR1D_module
+profile_type	src/GR1D_module.F90	/^  integer profile_type /;"	v	module:GR1D_module
+q	src/GR1D_module.F90	/^  real*8,allocatable,save :: q(/;"	v	module:GR1D_module
+q_M1	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_M1(/;"	v	module:GR1D_module
+q_M1_extra	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_M1_extra(/;"	v	module:GR1D_module
+q_M1_extram	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_M1_extram(/;"	v	module:GR1D_module
+q_M1_extrap	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_M1_extrap(/;"	v	module:GR1D_module
+q_M1_fluid	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_M1_fluid(/;"	v	module:GR1D_module
+q_M1_old	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_M1_old(/;"	v	module:GR1D_module
+q_M1_prev	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_M1_prev(/;"	v	module:GR1D_module
+q_M1m	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_M1m(/;"	v	module:GR1D_module
+q_M1p	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_M1p(/;"	v	module:GR1D_module
+q_hat	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_hat(/;"	v	module:GR1D_module
+q_hat_old	src/GR1D_module.F90	/^  real*8,allocatable,save :: q_hat_old(/;"	v	module:GR1D_module
+qm	src/GR1D_module.F90	/^  real*8,allocatable,save :: q(:,:),qm(/;"	v	module:GR1D_module
+qold	src/GR1D_module.F90	/^  real*8,allocatable,save :: qold(/;"	v	module:GR1D_module
+qp	src/GR1D_module.F90	/^  real*8,allocatable,save :: q(:,:),qm(:,:),qp(/;"	v	module:GR1D_module
+r11max	src/GR1D_module.F90	/^  real*8 rXmax,r12max,r11max$/;"	v	module:GR1D_module
+r12max	src/GR1D_module.F90	/^  real*8 rXmax,r12max,/;"	v	module:GR1D_module
+rXmax	src/GR1D_module.F90	/^  real*8 rXmax,/;"	v	module:GR1D_module
+radial_zones	src/GR1D_module.F90	/^  integer radial_zones$/;"	v	module:GR1D_module
+read_yeprofile	src/ye_of_rho.F90	/^  subroutine read_yeprofile$/;"	s	module:ye_of_rho
+readtable	src/nuc_eos/readtable.F90	/^subroutine readtable(/;"	s
+reconstruct	src/reconstruct.F90	/^subroutine reconstruct$/;"	s
+reconstruct_1	src/reconstruct.F90	/^subroutine reconstruct_1$/;"	s
+reconstruct_with_pc	src/reconstruct.F90	/^subroutine reconstruct_with_pc$/;"	s
+reconstruct_with_ppm	src/reconstruct.F90	/^subroutine reconstruct_with_ppm$/;"	s
+reconstruct_with_tvd	src/reconstruct.F90	/^subroutine reconstruct_with_tvd$/;"	s
+reconstruction_eos_call	src/reconstruct.F90	/^subroutine reconstruction_eos_call(/;"	s
+reconstruction_method	src/GR1D_module.F90	/^  character*80 reconstruction_method$/;"	v	module:GR1D_module
+restart_file_name	src/GR1D_module.F90	/^  character*256 restart_file_name$/;"	v	module:GR1D_module
+restart_init_h5	src/restart_H5.F90	/^subroutine restart_init_h5$/;"	s
+restart_output_h5	src/restart_H5.F90	/^subroutine restart_output_h5$/;"	s
+rho	src/GR1D_module.F90	/^  real*8,allocatable,save :: rho(/;"	v	module:GR1D_module
+rho_cut	src/GR1D_module.F90	/^  real*8 rho_cut$/;"	v	module:GR1D_module
+rho_gf	src/GR1D_module.F90	/^  real*8,parameter :: rho_gf /;"	v	module:GR1D_module
+rho_min_leak	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: rho_min_leak /;"	v	module:leakage_rosswog
+rhoinlogrho	src/ye_of_rho.F90	/^  real*8,allocatable,save :: rhoinlogrho(/;"	v	module:ye_of_rho
+rhom	src/GR1D_module.F90	/^  real*8,allocatable,save :: rho(:), rhop(:),rhom(/;"	v	module:GR1D_module
+rhonuc	src/eos.F90	/^  real*8 rhonuc$/;"	v	module:hybrid_eos_module
+rhop	src/GR1D_module.F90	/^  real*8,allocatable,save :: rho(:), rhop(/;"	v	module:GR1D_module
+rkstep	src/GR1D_module.F90	/^  integer :: rkstep /;"	v	module:GR1D_module
+rotation_analysis	src/analysis.F90	/^subroutine rotation_analysis$/;"	s
+rotational_energy	src/GR1D_module.F90	/^  real*8 rotational_energy$/;"	v	module:GR1D_module
+sedov	src/sedov.F90	/^subroutine sedov$/;"	s
+series2	src/grid.F90	/^subroutine series2(/;"	s
+set_omega	src/GR1D_module.F90	/^  logical :: set_omega /;"	v	module:GR1D_module
+shock_radius	src/GR1D_module.F90	/^  real*8 shock_radius$/;"	v	module:GR1D_module
+shocktube	src/shocktube.F90	/^subroutine shocktube$/;"	s
+shocktube_problem	src/GR1D_module.F90	/^  integer :: shocktube_problem$/;"	v	module:GR1D_module
+sigma_0	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,parameter :: sigma_0 /;"	v	module:leakage_rosswog
+slopeinlogrho	src/ye_of_rho.F90	/^  real*8,allocatable,save :: slopeinlogrho(/;"	v	module:ye_of_rho
+small_output	src/GR1D_module.F90	/^  logical small_output$/;"	v	module:GR1D_module
+smallest_dx	src/GR1D_module.F90	/^  real*8 smallest_dx$/;"	v	module:GR1D_module
+sqrt_gamma	src/GR1D_module.F90	/^  real*8,allocatable,save :: sqrt_gamma(/;"	v	module:GR1D_module
+start	src/start.F90	/^subroutine start$/;"	s
+start_timers	src/timers.F90	/^  subroutine start_timers$/;"	s	module:timers
+switch1	src/GR1D_module.F90	/^  logical :: switch1 /;"	v	module:GR1D_module
+switch2	src/GR1D_module.F90	/^  logical :: switch2 /;"	v	module:GR1D_module
+switch3	src/GR1D_module.F90	/^  logical :: switch3 /;"	v	module:GR1D_module
+t_bounce	src/GR1D_module.F90	/^  real*8 t_bounce$/;"	v	module:GR1D_module
+t_c2p	src/timers.F90	/^  real*8 :: t_c2p,/;"	v	module:timers
+t_fdhlle	src/timers.F90	/^  real*8 :: t_c2p, t_fdhlle$/;"	v	module:timers
+t_max_hack	src/nuc_eos/eosmodule.F90	/^   real*8 :: t_max_hack /;"	v	module:eosmodule
+tdump	src/GR1D_module.F90	/^  real*8 tdump,/;"	v	module:GR1D_module
+tdump_restart	src/GR1D_module.F90	/^  real*8 tdump,tdump_scalar,tdump_restart$/;"	v	module:GR1D_module
+tdump_scalar	src/GR1D_module.F90	/^  real*8 tdump,tdump_scalar,/;"	v	module:GR1D_module
+temp	src/GR1D_module.F90	/^  real*8,allocatable,save :: temp(/;"	v	module:GR1D_module
+temp_mev_to_kelvin	src/GR1D_module.F90	/^  real*8,parameter :: temp_mev_to_kelvin /;"	v	module:GR1D_module
+temp_mev_to_kelvin	src/nuc_eos/eosmodule.F90	/^   real*8,save :: temp_mev_to_kelvin /;"	v	module:eosmodule
+tend	src/GR1D_module.F90	/^  real*8 tend$/;"	v	module:GR1D_module
+time	src/GR1D_module.F90	/^  real*8 time,/;"	v	module:GR1D_module
+time_c	src/GR1D_module.F90	/^  real*8 time,timep,timepp,time_c$/;"	v	module:GR1D_module
+time_gf	src/GR1D_module.F90	/^  real*8,parameter :: time_gf /;"	v	module:GR1D_module
+timep	src/GR1D_module.F90	/^  real*8 time,timep,/;"	v	module:GR1D_module
+timepp	src/GR1D_module.F90	/^  real*8 time,timep,timepp,/;"	v	module:GR1D_module
+timers	src/timers.F90	/^module timers$/;"	m
+tiny	src/GR1D_module.F90	/^  real*8 tiny$/;"	v	module:GR1D_module
+total_energy_absorped	src/GR1D_module.F90	/^  real*8 :: total_energy_absorped$/;"	v	module:GR1D_module
+total_energy_radiated	src/GR1D_module.F90	/^  real*8 :: total_energy_radiated$/;"	v	module:GR1D_module
+total_mass_gain	src/GR1D_module.F90	/^  real*8 :: total_mass_gain$/;"	v	module:GR1D_module
+total_net_heating	src/GR1D_module.F90	/^  real*8 :: total_net_heating$/;"	v	module:GR1D_module
+totalmass	src/GR1D_module.F90	/^  real*8 totalmass$/;"	v	module:GR1D_module
+tvd_limiter	src/GR1D_module.F90	/^  character*80 tvd_limiter$/;"	v	module:GR1D_module
+tvd_reconstruction	src/TVD_reconstruction.F90	/^subroutine tvd_reconstruction(/;"	s
+twothirds	src/GR1D_module.F90	/^  real*8,parameter :: twothirds /;"	v	module:GR1D_module
+v	src/GR1D_module.F90	/^  real*8,allocatable,save/;"	v	module:GR1D_module
+v1	src/GR1D_module.F90	/^  real*8,allocatable,save :: v1(/;"	v	module:GR1D_module
+v1m	src/GR1D_module.F90	/^  real*8,allocatable,save :: v1(:),v1m(/;"	v	module:GR1D_module
+v1p	src/GR1D_module.F90	/^  real*8,allocatable,save :: v1(:),v1m(:),v1p(/;"	v	module:GR1D_module
+v_order	src/GR1D_module.F90	/^  integer :: v_order$/;"	v	module:GR1D_module
+v_prev	src/GR1D_module.F90	/^  real*8,allocatable,save :: v_prev(/;"	v	module:GR1D_module
+vm	src/GR1D_module.F90	/^  real*8,allocatable,save :: v(:),vm(/;"	v	module:GR1D_module
+volume	src/GR1D_module.F90	/^  real*8,allocatable,save :: mass(:), mass1(:), volume(/;"	v	module:GR1D_module
+vp	src/GR1D_module.F90	/^  real*8,allocatable,save :: v(:),vm(:),vp(/;"	v	module:GR1D_module
+vphi	src/GR1D_module.F90	/^  real*8,allocatable,save :: vphi(/;"	v	module:GR1D_module
+vphi1	src/GR1D_module.F90	/^  real*8,allocatable,save :: vphi1(/;"	v	module:GR1D_module
+vphi1m	src/GR1D_module.F90	/^  real*8,allocatable,save :: vphi1(:),vphi1m(/;"	v	module:GR1D_module
+vphi1p	src/GR1D_module.F90	/^  real*8,allocatable,save :: vphi1(:),vphi1m(:),vphi1p(/;"	v	module:GR1D_module
+vphim	src/GR1D_module.F90	/^  real*8,allocatable,save :: vphi(:),vphim(/;"	v	module:GR1D_module
+vphip	src/GR1D_module.F90	/^  real*8,allocatable,save :: vphi(:),vphim(:),vphip(/;"	v	module:GR1D_module
+vs_mass	src/GR1D_module.F90	/^  logical vs_mass$/;"	v	module:GR1D_module
+warn_from	src/nuc_eos/eosmodule.F90	/^   integer,save :: warn_from /;"	v	module:eosmodule
+wipe_outdir	src/GR1D_module.F90	/^  logical wipe_outdir$/;"	v	module:GR1D_module
+x1	src/GR1D_module.F90	/^  real*8,allocatable,save :: x1(/;"	v	module:GR1D_module
+x1i	src/GR1D_module.F90	/^  real*8,allocatable,save :: x1i(/;"	v	module:GR1D_module
+xabar	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: xabar(/;"	v	module:leakage_rosswog
+xxa	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: xxa(/;"	v	module:leakage_rosswog
+xxh	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: xxh(/;"	v	module:leakage_rosswog
+xxn	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: xxn(/;"	v	module:leakage_rosswog
+xxp	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: xxp(/;"	v	module:leakage_rosswog
+xzbar	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: xzbar(/;"	v	module:leakage_rosswog
+ye	src/GR1D_module.F90	/^  real*8,allocatable,save :: ye(/;"	v	module:GR1D_module
+ye	src/nuc_eos/eosmodule.F90	/^   real*8,allocatable,save :: ye(/;"	v	module:eosmodule
+ye_of_rho	src/ye_of_rho.F90	/^module ye_of_rho$/;"	m
+ye_prev	src/GR1D_module.F90	/^  real*8,allocatable,save :: ye(:),yem(:),yep(:),ye_prev(/;"	v	module:GR1D_module
+yeinlogrho	src/ye_of_rho.F90	/^  real*8,allocatable,save :: yeinlogrho(/;"	v	module:ye_of_rho
+yem	src/GR1D_module.F90	/^  real*8,allocatable,save :: ye(:),yem(/;"	v	module:GR1D_module
+yeofrho_logrho1	src/ye_of_rho.F90	/^  real*8,save :: yeofrho_logrho1$/;"	v	module:ye_of_rho
+yeofrho_logrho2	src/ye_of_rho.F90	/^  real*8,save :: yeofrho_logrho2$/;"	v	module:ye_of_rho
+yeofrho_logrhoH	src/ye_of_rho.F90	/^  real*8,save :: yeofrho_logrhoH$/;"	v	module:ye_of_rho
+yeofrho_ye1	src/ye_of_rho.F90	/^  real*8,save :: yeofrho_ye1$/;"	v	module:ye_of_rho
+yeofrho_ye2	src/ye_of_rho.F90	/^  real*8,save :: yeofrho_ye2$/;"	v	module:ye_of_rho
+yeofrho_yeH	src/ye_of_rho.F90	/^  real*8,save :: yeofrho_yeH$/;"	v	module:ye_of_rho
+yeofrho_yec	src/ye_of_rho.F90	/^  real*8,save :: yeofrho_yec$/;"	v	module:ye_of_rho
+yep	src/GR1D_module.F90	/^  real*8,allocatable,save :: ye(:),yem(:),yep(/;"	v	module:GR1D_module
+yeprofile_name	src/GR1D_module.F90	/^  character*256 yeprofile_name$/;"	v	module:GR1D_module
+ynu	src/GR1D_module.F90	/^  real*8,allocatable,save :: ynu(/;"	v	module:GR1D_module
+zeta	src/leakage_rosswog/leak_rosswog.F90	/^  real*8,allocatable :: zeta(/;"	v	module:leakage_rosswog
